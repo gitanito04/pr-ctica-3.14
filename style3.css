@@ -1,0 +1,22 @@
+div.div1{
+    position: relative;
+    left: 802px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+p.reg{
+    text-align: center;
+}
+
+input.submit{
+    width: 200px;
+    height: 30px;
+}
+
+div.nav{
+    text-align: center;
+}

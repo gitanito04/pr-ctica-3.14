@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <main>
+    <nav>
+        <div class="nav">
+        <p>
+        <a class="f1" href="index.html">Fromulario 1</a>
+        <a class="f2" href="formulario2.html">Formulario 2</a>
+        <a class="f3" href="formulario3.html">Formulario 3</a>
+        </div>
+    </p>
+    </nav>
+    <section>
+        <h3>Empieza creando tu usuario</h3>
+        <div class="div1">
+            <form action="ejemplo.php">
+                <p>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre (como sale en el DNI)">
+                </p>
+                <p>
+                <input type="text" name="apellido1" id="apellido1" placeholder="1º apellido (como sale en el DNI)"> <input type="text" name="apellido2" id="apellido2" placeholder="2º apellido (como sale en el DNI)">
+                </p>
+                <p>            
+                <select name="menu" id="menu" size="1">
+                    <option value="0">DNI/NIF/CERT.AEAT</option>
+                    <option value="1">DNI</option>
+                    <option value="2">NIF</option>
+                    <option value="3">CERT.AEAT</option>
+                </select>
+                <input type="text" name="numero" id="numero" placeholder="Número de documento">
+                </p>
+                <p>
+                <input type="tel" name="tel" id="tel" placeholder="Móvil">
+                <input type="email" name="correo" id="correo" placeholder="Email">
+                </p>
+                <p>
+                    <input class="submit" type="submit" value="Crear perfil">
+                </p>
+            </form>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
